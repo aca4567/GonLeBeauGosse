@@ -403,6 +403,6 @@ function Savebdd() {
         if (err) message.channel.send("Une erreur est survenue. Si le problème persiste contactez mon créateur. (aca4567#9222)");
     });
 }
-bot.login(token.token);
+bot.login(process.env.TOKEN);
 
 //#endregion
